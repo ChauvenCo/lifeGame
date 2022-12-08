@@ -4,7 +4,6 @@ from random import randint
 
 #import pyglet
 
-
 def applyCell(x, y, mapi):
     aliveNeighbours = 0
 
@@ -65,10 +64,6 @@ while launched:
     py.display.update()
     #py.time.wait(50)
 py.quit()
-
-a = open('fichier.txt', 'a')
-a.write
-a.close()
 
 # @fenetre.event
 # def on_draw():
